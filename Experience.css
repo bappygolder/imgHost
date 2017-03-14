@@ -1,3 +1,6 @@
+body{
+  overflow-x: hidden;
+}
 .flatpickr-input {
  cursor: pointer;
  z-index: 1;
@@ -891,6 +894,25 @@
     section.clearfix{
       background-color: #fff;
     }
+    @media only screen and (min-device-width: 511px) and (max-device-width: 767px) {
+    #ac_prods, #ac_star_ratings_off{
+        text-align: center;
+        display: table;
+        margin: 0px auto;
+    }
+    #ac_content #ac_custrecommendations .ac_2col{
+          text-align: center;
+          max-width: 740px;
+    }
+    #ac_content .ac_2col.border{
+          width: 100%;
+    }
+    ##ac_content .ac_button{
+      text-align: center;
+      margin: 10px auto;
+      display: table;
+    }
+    }
     @media screen and (max-width: 767px) {
         #ac_quotebox {
             width: 95%;
@@ -951,6 +973,9 @@
     }
 
     @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+      body{
+        max-width: 0px !important;
+      }
         #ac_content .ac_2col {
             max-width: none;
         }
@@ -966,5 +991,22 @@
         #award {
             bottom: -10px;
             margin-left: -158px;
+        }
+        #ac_content #ac_custrecommendations .ac_2col.border{
+            max-width: 302px;
+            float: left;
+            width: 100%;
+        }
+        #ac_content #ac_custrecommendations .ac_2col{
+            float: left;
+            width: 56%;
+            max-width: 609px;
+        }
+        #ac_betterwithbingle ul li{
+              min-width: 360px;
+              width: 50%;
+        }
+        #ac_hero_text{
+          margin-top: 40px !important;
         }
     }
