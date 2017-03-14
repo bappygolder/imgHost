@@ -974,7 +974,7 @@ body{
 
     @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
       body{
-        max-width: 0px !important;
+        min-width: 0px !important;
       }
         #ac_content .ac_2col {
             max-width: none;
