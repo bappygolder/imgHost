@@ -1,7 +1,7 @@
 .flatpickr-input {
- cursor: pointer; 
+ cursor: pointer;
  z-index: 1;
- } 
+ }
 .flatpickr-mobileInput {opacity: 0;
         visibility: hidden;
         position: absolute;
@@ -363,7 +363,7 @@
         flex: 1;
         text-align: center;
         margin: 0;
-        padding: 0; 
+        padding: 0;
         height: 38px;
         line-height: 38px;
         cursor: pointer;
@@ -888,7 +888,9 @@
         width: 112px;
         height: 132px;
     }
-
+    section.clearfix{
+      background-color: #fff;
+    }
     @media screen and (max-width: 767px) {
         #ac_quotebox {
             width: 95%;
