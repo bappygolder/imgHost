@@ -894,6 +894,9 @@ body{
     section.clearfix{
       background-color: #fff;
     }
+    .form-control.input{
+      cursor: pointer;
+    }
     @media only screen and (min-device-width: 511px) and (max-device-width: 767px) {
     #ac_prods, #ac_star_ratings_off{
         text-align: center;
@@ -975,6 +978,16 @@ body{
     @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
       body{
         min-width: 100% !important;
+      }
+      #ac_content .ac_button{
+        width: 60%;
+      }
+      #ac_content .ac_2col.border{
+          text-align: center;
+          margin: 0px auto;
+          display: table;
+          width: 50%;
+
       }
         #ac_content .ac_2col {
             max-width: none;
