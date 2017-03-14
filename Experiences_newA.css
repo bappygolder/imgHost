@@ -983,7 +983,7 @@ body{
         width: 60%;
       }
       .ac_2col{
-        width: 50%;
+        width: 50% !important;
       }
       #ac_content .ac_2col.border{
           text-align: center;
