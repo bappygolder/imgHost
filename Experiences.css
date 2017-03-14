@@ -982,6 +982,9 @@ body{
       #ac_content .ac_button{
         width: 60%;
       }
+      .ac_2col{
+        width: 50%;
+      }
       #ac_content .ac_2col.border{
           text-align: center;
           margin: 0px auto;
